@@ -9,7 +9,7 @@ def formatIndex(df):
     return df
 
 df=pd.read_csv('superstore .csv',encoding='latin1')
-# st.write(df.head())
+st.write(df.head())
 #get a list of products
 
 total_sales_product=df[['Product Name','Sales']]. \
